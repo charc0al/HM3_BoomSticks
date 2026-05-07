@@ -39,5 +39,13 @@
 			"enabledByDefault": false,
 			"contentFolders": ["content/toon"]
 		},
+		{
+			"name": "Charc0al's Recommendation",
+			"tooltip": "Mostly the same as the Blood Money setting, but increased and decreased individual guns based on their type. Sawed-off and suppressed shotguns have slightly less knockpack, and a few special shotguns have slightly more (Ancestral, Hunting, Room Clearer)",
+			"group": "Knockback",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/charc0al"]
+		}
 	]
 }
