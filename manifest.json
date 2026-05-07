@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "Charc0al.BoomSticks",
 	"name": "Boomsticks - Shotgun Knockback",
 	"description": "Gives shotguns a little extra punch",
 	"authors": ["Charc0al"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.35",
 	"options": [
 		{
 			"name": "A Little Extra Punch",
@@ -47,5 +47,6 @@
 			"enabledByDefault": false,
 			"contentFolders": ["content/charc0al"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/charc0al/HM3_BoomSticks/releases/latest/download/updates.json"
 }
