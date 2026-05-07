@@ -1,9 +1,43 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Charc0al.BoomSticks",
+	"name": "Boomsticks - Shotgun Knockback",
+	"description": "Gives shotguns a little extra punch",
+	"authors": ["Charc0al"],
+	"frameworkVersion": "2.25.1",
+	"options": [
+		{
+			"name": "A Little Extra Punch",
+			"tooltip": "A little extra knockback over vanilla. Upkick removed.",
+			"group": "Knockback",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/punch"]
+		},
+		{
+			"name": "Blood Money",
+			"tooltip": "More similar to Blood Money shotgun knockback",
+			"group": "Knockback",
+			"type": "select",
+			"enabledByDefault": true,
+			"contentFolders": ["content/bm"]
+		},
+		{
+			"name": "Arm Cannon",
+			"tooltip": "About double the knockback of the Blood Money setting",
+			"group": "Knockback",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/x2"]
+		},
+		{
+			"name": "Looney Tunes",
+			"tooltip": "Cartoonishly huge knockback for shotguns. Extreme knockpack with some uplift. Pretty fun.",
+			"group": "Knockback",
+			"type": "select",
+			"enabledByDefault": false,
+			"contentFolders": ["content/toon"]
+		},
+	]
 }
