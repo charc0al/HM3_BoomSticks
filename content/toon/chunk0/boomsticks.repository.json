@@ -559,5 +559,22 @@
 			"RagdollImpactForce": 170.0,
 			"RagdollImpactUpKick": 90.0
 		}
+	},
+	"413d4e9d-b063-4882-9012-139f45c8201e": {
+		"CommonName": "(SHAMROCK) Firearms_shotgun_Shamrock_A",
+		"ActorConfiguration": {
+			"RagdollImpactForce": 170.0,
+			"RagdollImpactUpKick": 90.0
+		},
+		"PrimaryConfiguration": {
+			"RagdollImpactForce": 170.0,
+			"RagdollImpactUpKick": 90.0
+		},
+		"RagdollImpactForce": 170.0,
+		"RagdollImpactUpKick": 90.0,
+		"SecondaryConfiguration": {
+			"RagdollImpactForce": 170.0,
+			"RagdollImpactUpKick": 90.0
+		}
 	}
 }
